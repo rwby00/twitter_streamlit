@@ -19,7 +19,7 @@ st.title('Twitter Sentiment Analysis')
 
 # Load classification model
 with st.spinner('Loading classification model...'):
-    classifier = TextClassifier.load('models/best-model.pt')
+    classifier = TextClassifier.load('models/final-model.pt')
 
 # Preprocess function
 allowed_chars = ' AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789~`!@#$%^&*()-=_+[]{}|;:",./<>?'
